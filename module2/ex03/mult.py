@@ -12,5 +12,7 @@ print(result)
 
 if (result > 0):
     print("The result is positive.")
-else:
+elif (result < 0):
     print("The result is negative.")
+else:
+    print("The result is both positive and negative.")
