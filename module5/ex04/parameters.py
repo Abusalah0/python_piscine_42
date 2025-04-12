@@ -2,4 +2,4 @@
 
 import sys
 
-print('Number of arguments:', len(sys.argv), ".")
+print(f'Number of arguments: {len(sys.argv)}.')

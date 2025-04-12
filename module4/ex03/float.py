@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
-num = input("Give me a number: ")
+num = float(input("Give me a number: "))
 
-if num.isdigit():
-    if num.find(".") != -1:
-        print("This number is a decimal.")
-    else:
-        print("This number is an integer.")
+if (num.is_integer()):
+    print('This number is an integer.')
+else:
+    print('This number is a decimal.')
+    
+
